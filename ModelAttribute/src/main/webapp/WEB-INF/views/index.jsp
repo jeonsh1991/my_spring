@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,11 +12,11 @@
 	String context = request.getContextPath();
 %>
 <form action="<%=context%>/studentView" method="post">
- �̸� : <input type="text" name="name">
- ���� : <input type=text name="age">
- �г� : <input type="text" name="classNum">
- �� : <input type="text" name="gradeNum">
- <input type="submit" value="����">
+ ÀÌ¸§ : <input type="text" name="name">
+ ³ªÀÌ : <input type=text name="age">
+ ÇÐ³â : <input type="text" name="classNum">
+ ¹Ý : <input type="text" name="gradeNum">
+ <input type="submit" value="Àü¼Û">
 </form>
 </body>
 </html>
