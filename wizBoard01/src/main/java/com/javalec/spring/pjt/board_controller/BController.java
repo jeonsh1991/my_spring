@@ -36,6 +36,9 @@ public class BController {
 	public String write_view(Model model) {
 		System.out.println("write_view---------");
 		
+		
+		
+		
 		return "write_view";
 	}
 	
