@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-3mapper.dtd">
+	
+<mapper namespace="com.spring.pp.user.UserMapper">
+	
+	<insert id="register">
+		insert into tbl_user (
+			user_id
+			, user_pw
+			, user_name
+			, user_email
+		) values (
+			#{userId}
+			, #{userPw}
+			, #{userName}
+			, #{userEmail}
+		)
+		
+	</insert>
+
+</mapper>
